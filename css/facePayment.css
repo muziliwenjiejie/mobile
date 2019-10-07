@@ -1,0 +1,164 @@
+section{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+section>ul{
+    width: 100%;
+    overflow: hidden;
+}
+section>ul>li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+section>ul>li>p{
+    margin: 0;
+    /*width: 100%;*/
+    text-align: center;
+}
+section>img{
+    display: block;
+    width: 100%;
+    padding: 20px 20% 20px 30%;
+    box-sizing: border-box;
+}
+section>ul>li>span:nth-child(1){font-size: 12px;color: #ff5000;padding: 0 5px;box-sizing: border-box;border-radius: 10px;border: 1px solid #ff5000;}
+section>ul>li>p:nth-child(2){font-size: 14px;font-weight:400;color: #333;padding: 5px;box-sizing: border-box;}
+section>ul>li>p:nth-child(3){font-size: 12px;font-weight:400;color: #888;padding: 5px;box-sizing: border-box;}
+.h2{
+    width: 100%;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+    box-sizing: border-box;
+}
+.h3{
+    width: 100%;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    padding: 20px 20px 5px 20px;
+    box-sizing: border-box;
+}
+.p{
+    width: 100%;
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+.span{
+    display: inline-block;
+    padding: 5px;
+    background: #0c5460;
+    font-size: 12px;
+    color: white;
+    border-radius: 0 20px 20px 20px;
+    text-align: center;
+}
+.img{
+    width: 100%;
+    padding: 10px 20%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.color_w{
+    color: white;
+}
+.color_b{
+    color: #333;
+}
+.collection2_1{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/bg_banner (2).png") no-repeat;
+    background-size: 100%;
+}
+.collection2_1c{
+    padding: 19%;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+.collection2_1c>img{
+    width: 100%;
+    display: block;
+}
+.collection2_1c>p{
+    margin: 15px 0;
+    padding: 0;
+    font-size: 12px;
+}
+.collection2_1c>h1{
+    margin: 15px 0;
+    padding: 0;
+    font-size: 24px;
+}
+.collection2_1c>button{
+    margin: 15px 0;
+    padding: 5px 20px;
+    font-size: 12px;
+    background: #ff5000;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+.face_1{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.face_1>ul{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.face_1>ul>li{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.face_1>ul>li>img{
+    width: 100%;
+}
+.face_2{
+    width:100%;
+    overflow: hidden;
+}
+.face_2>ul{
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+.face_2>ul>li{
+    width: 100%;
+    padding: 30px 5px;
+    box-sizing: border-box;
+    clear: both;
+}
+.face_2>ul>li>img{
+    margin-top: 20px;
+    display: block;
+    width: 10%;
+    padding: 2%;
+    float: left;
+}
+.face_2>ul>li>p{
+    width: 80%;
+    margin: 0;
+    padding: 0 5px 5px 5px;
+    float: left;
+    font-size: 12px;
+}
+.face_2>ul>li>p:nth-child(2){color: #333333}
+.face_2>ul>li>p:nth-child(3){color: #888888}
+

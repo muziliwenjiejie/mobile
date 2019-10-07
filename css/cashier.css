@@ -1,0 +1,120 @@
+section{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+section>h2{
+    width: 100%;
+    padding: 30px 20px 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+.h2{
+    width: 100%;
+    padding: 30px 20px 5px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.h3{
+    width: 100%;
+    padding: 30px 20px 5px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+.p{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+.li{
+    width: 100%;
+    position: relative;
+    padding: 20px 0 270px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -125px;
+    background: white;
+}
+.p1{
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #333333;
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+}
+.li1{
+    width: 100%;
+    padding: 10px 5% 0 5%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.collection_9{
+    width: 100%;
+    overflow: hidden;
+}
+.collection_9>p{
+    margin: 0;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+.collection_9c{
+    width: 100%;
+    margin: 0 10px;
+    box-sizing: border-box;
+    padding: 0;
+    overflow-x: scroll;
+}
+.collection_9c>ul{
+    width: 600%;
+    overflow: hidden;
+}
+.collection_9c>ul>li{
+    margin: 0 1%;
+    width: 10%;
+    float: left;
+    box-sizing: border-box;
+}
+.collection_9c>ul>li>img{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+}
+.collection_9c>ul>li>p{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    background: white;
+    font-size: 12px;
+    color: #333333;
+}

@@ -1,0 +1,72 @@
+section{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+section>h2{
+    width: 100%;
+    padding: 30px 20px 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+.bopu51_1{
+    width: 100%;
+    padding: 30px 0 160px 30px;
+    box-sizing: border-box;
+}
+.bopu51_1>h1{
+    width: 100%;
+    font-size: 24px;
+    color: #333333;
+}
+.bopu51_1>p{
+    width: 100%;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+.gong,.shi{
+    width: 100%;
+    overflow: hidden;
+}
+.gong>li{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.gong>li>h2{
+    width: 100%;
+    padding: 40px 40px 5px 40px;
+    font-size: 24px;
+}
+.gong>li>p{
+    width: 100%;
+    padding: 0 40px 260px 40px;
+    font-size: 14px;
+    margin: 0;
+}
+.shi>li{
+    width: 44%;
+    margin: 10px 3%;
+    float: left;
+    background: white;
+    border-radius: 5px;
+}
+.shi>li>img{
+    display: block;
+    width: 100%;
+}
+.shi>li>p{
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+}

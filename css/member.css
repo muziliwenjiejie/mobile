@@ -1,0 +1,111 @@
+.swipt{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/bg_banner21.png") no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+.swipt>img,.img{
+    display: block;
+    width: 40%;
+    margin: 10px 30% 40px;
+    box-sizing: border-box;
+}
+.img1{
+    display: block;
+    width: 60%;
+    margin: 40px 20%;
+    box-sizing: border-box;
+}
+.swipt>button{
+    width: 120px;
+    background: #ff5000;
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+.h1{
+    width: 100%;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 50px 20px 20px 20px;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+.p{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.app_1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.app_1>li{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+.app_1>li>h2{
+    width: 100%;
+    padding: 30px 20px 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+.h3{
+    width: 100%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+}
+.app_1>li>h3{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+.app_1>li>p{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+.app_1>li>p>span{
+    color: #ff5000;
+}
+.app_1>li>img{
+    width: 80%;
+    margin: 20px 10%;
+    display: inline-block;
+}
+.app_1>li>ul{
+    width: 100%;
+    overflow: hidden;
+}
+.app_1>li>ul>li{
+    padding: 2%;
+    width: 50%;
+    float: left;
+}
+.app_1>li>ul>li>img{
+    width: 100%;
+    display: inline-block;
+}

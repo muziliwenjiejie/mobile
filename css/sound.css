@@ -1,0 +1,158 @@
+section{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+section>h2{
+    width: 100%;
+    padding: 30px 20px 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+section>p{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+.swipt{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.swipt>img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.swipt_1{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -150px;
+}
+.swipt_1>img{
+    display: inline-block;
+    width: 300px;
+}
+.swipt_2{
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -200px;
+    text-align: center;
+}
+.swipt_2>p{
+    display: inline-block;
+    width: 400px;
+    font-size: 14px;
+    color: white;
+}
+.swipt_3{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -60px;
+}
+.swipt_3>button{
+    width: 120px;
+    background: #ff5000;
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+.app_1{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.app_1>li{
+    width: 100%;
+    overflow: hidden;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.app_1>li:nth-child(2n+1)>h2{
+    padding: 20px 0 10px 0;
+    width: 100%;
+    font-size: 20px;
+    color: #333333;
+}
+.app_1>li:nth-child(2n)>h2{
+    padding: 20px 0 10px 0;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+.app_1>li:nth-child(2n+1)>h3{
+    width: 100%;
+    font-size: 14px;
+    color: #888;
+    padding: 10px 0;
+    border-bottom: 1px dashed #f5f5f5;
+}
+.app_1>li:nth-child(2n)>h3{
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    padding: 10px 0;
+    border-bottom: 1px dashed #f5f5f5;
+}
+.app_1>li>h3>img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.app_1>li:nth-child(2n+1)>h3>span{
+    font-size: 12px;
+    color: #888;
+}
+.app_1>li:nth-child(2n)>h3>span{
+    font-size: 12px;
+    color: white;
+}
+.app_1>li>img{
+    display: inline-block;
+    width: 100%;
+}
+.app_1>li:nth-child(2n+1)>p{
+    font-size: 14px;
+    color: #333;
+}
+.app_1>li:nth-child(2n)>p{
+    font-size: 14px;
+    color: white;
+}
+.ul{
+    width: 100%;
+    display: block;
+    padding: 10px 20px 135px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.ul>li{
+    width: 50%;
+    float: left;
+    padding: 10px 5%;
+    box-sizing: border-box;
+}
+.ul>li>img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.ul>li>span{
+    font-size: 12px;
+    color: #e0e0e0;
+}

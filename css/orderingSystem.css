@@ -1,0 +1,76 @@
+.swipt{
+    width: 100%;
+    overflow: hidden;
+    background: url("https://fubei-official-resources.oss-cn-beijing.aliyuncs.com/image-resources/product/orderingSystem/mobile/bg_banner.png") no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+.swipt>button{
+    padding: 5px 20px;
+    background: #ff5000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    outline: none;
+    border: none;
+    margin: 0 0 80px 0;
+}
+.h1{
+    width: 100%;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 50px 20px 20px 20px;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+.p{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+}
+.img{
+    width: 40%;
+    margin: 20px 30% 5px;
+    display: inline-block;
+}
+.app_1{
+    width: 100%;
+    margin: 0;
+    padding: 0 20px 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.app_1>li:nth-child(1),.app_1>li:nth-child(3){
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+.app_1>li:nth-child(2){
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+.app_1>li:nth-child(1)>img,.app_1>li:nth-child(3)>img{
+    width: 100%;
+}
+.app_1>li:nth-child(2)>img{
+    width: 10px;
+    margin-top: 100px;
+}
+.li{
+    width: 33%;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.li>img{
+    width: 100%;
+}
+
+

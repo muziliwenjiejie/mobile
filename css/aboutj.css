@@ -1,0 +1,62 @@
+section{
+    width: 100%;
+    display: inline-block;
+}
+.partner_ad{
+    width: 100%;
+    background: url('../img/bg_banner.png') no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.partner_ad>img:nth-child(1){
+    margin: 100px auto 10px auto;
+    width: 90%;
+}
+.partner_ad>img:nth-child(2){
+    width: 95%;
+}
+.partner_ad>button{
+    outline: none;
+    border: none;
+    background: #ff5000;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 8px 30px;
+    box-sizing: border-box;
+    margin: 20px auto 50px auto;
+}
+.case_pages{
+    margin: 0 0 10px 0;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #f5f5f5;
+}
+.case_pages>li{
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+.case_pages>li:nth-child(1),.case_pages>li:nth-child(3){
+    width: 30%;
+}
+.case_pages>li:nth-child(2){
+    width: 40%;
+}
+.case_pages>li>a{
+    font-size: 12px;
+    color: #333333;
+}
+.case_pages>li>a>img{
+    margin: auto 5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.aboutj_p{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}

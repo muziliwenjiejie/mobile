@@ -1,0 +1,88 @@
+section{
+    width: 100%;
+    display: inline-block;
+}
+.partner_ad{
+    width: 100%;
+    background: url('../img/bg_banner.png') no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.partner_ad>img:nth-child(1){
+    margin: 100px auto 10px auto;
+    width: 90%;
+}
+.partner_ad>img:nth-child(2){
+    width: 95%;
+}
+.partner_ad>button{
+    outline: none;
+    border: none;
+    background: #ff5000;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 8px 30px;
+    box-sizing: border-box;
+    margin: 20px auto 50px auto;
+}
+.aboutp_C{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    background: #fafafa;
+}
+.aboutp_C>img{
+    display: inline-block;
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    left: 10.5px;
+}
+.aboutp_C>li{
+    width: 100%;
+    /*overflow: auto;*/
+    border-left: 1px solid #707070;
+    position: relative;
+    padding: 25px 5px 5px 10px;
+    box-sizing: border-box;
+}
+.aboutp_C>li>img{
+    display: inline-block;
+    width: 10px;
+    position: absolute;
+    top: 20px;
+    left: -6px;
+}
+.aboutp_CC{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.aboutp_CC>img{
+    display: inline-block;
+    width: 90%;
+    border-radius: 5px;
+}
+.aboutp_CC>p{
+    width: 90%;
+    margin: 0;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.aboutp_CC>p:nth-child(2){
+    font-size: 14px;
+    color: #333;
+}
+.aboutp_CC>p:nth-child(3){
+    font-size: 12px;
+    color: #888888;
+}
+.aboutj_p{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}

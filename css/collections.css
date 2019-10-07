@@ -1,0 +1,319 @@
+.collection{
+    width: 100%;
+    overflow: hidden;
+}
+.collection_1{
+    width: 100%;
+    overflow:hidden;
+    background: url('https://fubei-official-resources.oss-cn-beijing.aliyuncs.com/image-resources/product/collections/mobile/bg_banner.png') no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+.collection_1>img:nth-child(1){
+    margin: 30px 0 10px 0;
+    width: 80%;
+    display: inline-block;
+}
+.collection_1>p{
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #888888;
+    overflow: hidden;
+}
+.collection_1>img:nth-child(3){
+    width: 40%;
+    display: inline-block;
+}
+.collection_1>ul{
+    width: 60%;
+    margin: 5px 20%;
+    overflow: hidden;
+    padding: 5px 0;
+}
+.collection_1>ul>li{
+    width: 33.33%;
+    float: left;
+}
+.collection_1>ul>li>img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.collection_1>ul>li>p{
+    font-size: 12px;
+    color: #888888;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.collection_2{
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url('https://fubei-official-resources.oss-cn-beijing.aliyuncs.com/image-resources/product/collections/mobile/bg_know.png');
+}
+.h2{
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+    box-sizing: border-box;
+}
+.collection_2C{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.collection_2C>img{
+    display: inline-block;
+    width: 90%;
+}
+.collection_2C>p{
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.collection_2C>p:nth-child(2){position: absolute;top: 2%;left: 17%;}
+.collection_2C>p:nth-child(3){position: absolute;top: 4%;right: 12%;}
+.collection_2C>p:nth-child(4){position: absolute;top: 19%;left: 18%;}
+.collection_2C>p:nth-child(5){position: absolute;top: 36%;left: 12%;}
+.collection_2C>p:nth-child(6){position: absolute;top: 40%;right: 17%;}
+.collection_2C>p:nth-child(7){position: absolute;top: 60%;left: 6%;}
+.collection_2C>p:nth-child(8){position: absolute;top: 74%;right: 20%;}
+.collection_2>ul{
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.collection_2>ul>li{
+    width: 33.33%;
+    padding: 0 0 20px 0;
+    float: left;
+}
+.collection_2>ul>li>img{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+.collection_2>ul>li>p{
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 12px;
+    color: #888888;
+}
+.collection_3{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.collection_3c{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.collection_3c>img:nth-child(1){
+    margin: 20px auto;
+    width: 40%;
+}
+.collection_3c>img:nth-child(2){
+    width: 100%;
+    padding: 10%;
+    box-sizing: border-box;
+
+}
+.collection_3cc{
+    width: 50%;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    text-align: center;
+    margin-left: -25%;
+}
+.collection_3cc>h2{
+    font-size: 24px;
+    color: #333333;
+}
+.collection_3cc>p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #888888;
+}
+.collection_4{
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url('https://fubei-official-resources.oss-cn-beijing.aliyuncs.com/image-resources/product/collections/mobile/bg_steps.png');
+}
+.collection_4c{
+    margin: 30px 0;
+    width: 100%;
+    /*overflow: hidden;*/
+    text-align: center;
+    position: relative;
+}
+.collection_4c>img{
+    display: inline-block;
+    width: 60%;
+}
+.collection_4c_t{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ff5000;
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+}
+.collection_4cc{
+    margin: 0 20%;
+    width: 60%;
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0 0 5px 5px;
+}
+.collection_4cc>p{
+    margin: 0;
+    padding: 0 ;
+}
+.collection_4cc>p:nth-child(1){font-size: 14px;color: #333333}
+.collection_4cc>p:nth-child(2){font-size: 14px;color: #888}
+.collection_5{
+    width: 100%;
+    overflow: hidden;
+    background-size: 100%;
+    background-image: url('https://fubei-official-resources.oss-cn-beijing.aliyuncs.com/image-resources/product/collections/mobile/bg_voice.png');
+}
+.collection_6,.collection_6c{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.collection_6>h2{width: 100%;padding: 30px 0 5px 0;box-sizing: border-box;text-align: center;font-size: 24px;color: #333;}
+.collection_6>p{width: 100%;padding: 5px;box-sizing: border-box;text-align: center;font-size: 12px;color: #888;}
+.collection_6c{
+    position: relative;
+}
+.collection_6c>img{
+    display: inline-block;
+    width: 100%;
+    padding: 15%;
+}
+.collection_6c>p{
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+}
+.collection_6c>p:nth-child(2){bottom:30%;left: 10%;}
+.collection_6c>p:nth-child(3){top:35%;right: 10%;}
+.collection_7{
+    width: 100%;
+    overflow: hidden;
+    background-size: 100%;
+    background-image: url('https://fubei-official-resources.oss-cn-beijing.aliyuncs.com/image-resources/product/collections/mobile/bg_environment.png');
+}
+.collection_7>ul{
+    width: 90%;
+    overflow: hidden;
+    margin: 5%;
+    box-sizing: border-box;
+    background: hsla(0,0%,100%,.4);
+    border-radius: 5px;
+}
+.collection_7>ul>li{
+    width: 96%;
+    margin: 10px 2%;
+    border-bottom: 1px dashed #f5f5f5;
+    text-align: center;
+}
+.collection_7>ul>li:last-child{
+    border-bottom:none;
+}
+.collection_7>ul>li>img:nth-child(1){
+    width: 100%;
+    display: inline-block;
+    padding: 5% 20% 2% 20%;
+    box-sizing: border-box;
+}
+.collection_7>ul>li>p{
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    padding: 5px 30px 40px 30px;
+    box-sizing: border-box;
+}
+.collection_8{
+    width: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-image: url('https://fubei-official-resources.oss-cn-beijing.aliyuncs.com/image-resources/product/collections/mobile/bg_electric.png');
+    position: relative;
+}
+.collection_9{
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url('https://fubei-official-resources.oss-cn-beijing.aliyuncs.com/image-resources/product/collections/mobile/bg_scene.png');"
+}
+.collection_9>p{
+    margin: 0;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+.collection_9c{
+    width: 100%;
+    margin: 40px 10px;
+    box-sizing: border-box;
+    padding: 0;
+    overflow-x: scroll;
+}
+.collection_9c>ul{
+    width: 600%;
+    overflow: hidden;
+}
+.collection_9c>ul>li{
+    margin: 0 1%;
+    width: 10%;
+    float: left;
+    box-sizing: border-box;
+}
+.collection_9c>ul>li>img{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+}
+.collection_9c>ul>li>p{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    background: white;
+    font-size: 12px;
+    color: #333333;
+}
+

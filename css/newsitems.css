@@ -1,0 +1,34 @@
+section{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.detail{
+    width: 100%;
+    overflow: hidden;
+}
+.detail_title{
+    width: 100%;
+    overflow: hidden;
+}
+.detail_title>h1{
+    font-size:20px;
+    color: #333;
+}
+.detail_title>p{
+    font-size: 12px;
+    color: #888;
+}
+.detail_content{
+    width: 100%;
+    overflow: hidden;
+}
+.detail_content>p{
+    font-size: 14px;
+    color: #333;
+}
+.detail_content>p>img,.detail_content>img{
+    display: inline-block;
+    width: 100%;
+}

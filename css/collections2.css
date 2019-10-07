@@ -1,0 +1,143 @@
+section{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.h2{
+    width: 100%;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+    box-sizing: border-box;
+}
+.collection2_1{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/banner _2ll.png") no-repeat;
+    background-size: 100%;
+}
+.collection2_1c{
+    padding: 19%;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+.collection2_1c>img{
+    width: 100%;
+    display: block;
+}
+.collection2_1c>p,.collection2_2c>p{
+    margin: 15px 0;
+    padding: 0;
+    font-size: 14px;
+}
+.collection2_1c>button{
+    margin: 15px 0;
+    padding: 5px 20px;
+    font-size: 12px;
+    background: #ff5000;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+.collection2_2{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/fld.png") no-repeat;
+    background-size: 100%;
+}
+.collection2_21{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/jss.png") no-repeat;
+    background-size: 100%;
+}
+.collection2_22{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/fml.png") no-repeat;
+    background-size: 100%;
+}
+.collection2_23{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/shuangxiang.png") no-repeat;
+    background-size: 100%;
+}
+.collection2_24{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/jiaojie.png") no-repeat;
+    background-size: 100%;
+}
+.collection2_2c{
+    text-align: center;
+    padding: 10% 19% 56% 10%;
+    box-sizing: border-box;
+    width: 100%;
+}
+.collection2_2c>img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.collection2_2c>h1{
+    margin: 15px 0;
+    padding: 0;
+    font-size: 20px;
+}
+.color_w{
+    color: white;
+}
+.color_b{
+    color: #333;
+}
+/*最后*/
+.collection_9{
+    width: 100%;
+    overflow: hidden;
+}
+.collection_9>p{
+    margin: 0;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+.collection_9c{
+    width: 100%;
+    margin: 0 10px;
+    box-sizing: border-box;
+    padding: 0;
+    overflow-x: scroll;
+}
+.collection_9c>ul{
+    width: 600%;
+    overflow: hidden;
+}
+.collection_9c>ul>li{
+    margin: 0 1%;
+    width: 10%;
+    float: left;
+    box-sizing: border-box;
+}
+.collection_9c>ul>li>img{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+}
+.collection_9c>ul>li>p{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    background: white;
+    font-size: 12px;
+    color: #333333;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .swipt{
+            width: 100%;
+            /*height: 306px;*/
+            overflow: hidden;
+            /*background: url('../img/bg_banner1.png') no-repeat;*/
+            position: relative;
+        }
+        .swipt>img{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
+        .swipt_1{
+            position: absolute;
+            top: 90px;
+            left: 50%;
+            margin-left: -150px;
+        }
+        .swipt_1>img{
+            display: inline-block;
+            width: 300px;
+        }
+        .swipt_2{
+            position: absolute;
+            top: 150px;
+            left: 50%;
+            margin-left: -150px;
+        }
+        .swipt_2>ul{
+            display: inline-block;
+            width: 300px;
+        }
+        .swipt_2>ul>li{
+            width: 25%;
+            float: left;
+        }
+        .swipt_2>ul>li>a{
+            display: inline-block;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+        }
+        .swipt_2>ul>li>a>img{
+            margin-bottom: 5px;
+            /*display: inline-block;*/
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+        }
+        .swipt_2>ul>li>a>span{
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            color: #fff;
+        }
+        .swipt_3{
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            margin-left: -60px;
+        }
+        .swipt_3>button{
+            width: 120px;
+            background: #ff5000;
+            outline: none;
+            border: none;
+            height: 40px;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="swipt">
+    <img src="../img/bg_banner1.png" alt="">
+    <div class="swipt_1">
+        <img src="../img/postion1.png" alt="">
+    </div>
+    <div class="swipt_2">
+        <ul>
+            <li><a href="#">
+                <img src="../img/postion21.png" alt="">
+                <span>开通快</span>
+            </a></li>
+            <li><a href="#">
+                <img src="../img/postion22.png" alt="">
+                <span>支付方式多样</span>
+            </a></li>
+            <li><a href="#">
+                <img src="../img/postion23.png" alt="">
+                <span>灵活展示</span>
+            </a></li>
+            <li><a href="#">
+                <img src="../img/postion24.png" alt="">
+                <span>方便快捷</span>
+            </a></li>
+        </ul>
+    </div>
+    <div class="swipt_3">
+        <button>
+            立即加盟
+        </button>
+    </div>
+</div>
+</body>
+</html>

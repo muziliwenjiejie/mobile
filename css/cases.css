@@ -1,0 +1,134 @@
+.case_tabs{
+    width: 100%;
+    overflow: hidden;
+}
+.case_tabs_t{
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.case_lists{
+    width: 100%;
+    overflow: hidden;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.case_lists>li{
+    padding: 10px 10px;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.case_lists>li>a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+}
+.case_lists>li>a>img{
+    display: inline-block;
+    margin: 10px 20%;
+    width: 60%;
+    vertical-align: middle;
+}
+.case_lists>li>a>p{
+    margin: 5px 0;
+    width: 100%;
+    font-size: 12px;
+    color: #333;
+}
+.case_s,.case_p{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+.case_s>li,.case_p>li{
+    width: 100%;
+    overflow: hidden;
+}
+.case_s>li:last-child>a,.case_p>li:last-child>a{
+    border-bottom: none;
+}
+.case_s>li>a,.case_p>li>a{
+    display: inline-block;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+}
+.case_sC{
+    width: 60%;
+    float: left;
+}
+.case_sC>p{
+    width: 100%;
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+    padding: 0 15px 0 0;
+}
+.case_s>li>a>img{
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+.case_p>li>a>img{
+    width: 30%;
+    float: left;
+    display: inline-block;
+    border-radius: 250px;
+    vertical-align: middle;
+}
+.case_pC{
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 70%;
+    float: left;
+    text-align: left;
+}
+.case_pC>p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.case_pC>p:nth-child(1){
+    font-size: 18px;
+    color: #333;
+}
+.case_pC>p:nth-child(2){
+    font-size: 12px;
+    color: #888888;
+}
+.case_pC>span{
+    color: #ff5000;
+    font-size: 12px;
+}
+.case_pages{
+    margin: 0 0 10px 0;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #f5f5f5;
+}
+.case_pages>li{
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+.case_pages>li:nth-child(1),.case_pages>li:nth-child(3){
+    width: 30%;
+}
+.case_pages>li:nth-child(2){
+    width: 40%;
+}
+.case_pages>li>a{
+    font-size: 12px;
+    color: #333333;
+}
+.case_pages>li>a>img{
+    margin: auto 5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
